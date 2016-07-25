@@ -32,3 +32,24 @@ atau
     00-cover.md 01-teori.md 02-perancangan.md 03-implementasi.md 04-uji-coba.md
 
 Buka berkas `output.pdf` dengan aplikasi pdf viewer.
+
+### FAQ
+
+Q: Setelah saya menjalankan perintah `bash build.sh` menampilkan output seperti berikut:
+
+
+    ! Package babel Error: Unknown option `bahasa'. Either you misspelled it
+    (babel)                or the language definition file bahasa.ldf was not found
+    .
+    
+    See the babel package documentation for explanation.
+    Type  H <return>  for immediate help.
+    ...                                              
+                                                      
+    l.299 \ProcessOptions*
+
+Apa yang harus saya lakukan?
+
+A: Silahkan menginstall paket `texlive-lang-other`:
+
+   $ sudo apt-get install -y texlive-lang-other
