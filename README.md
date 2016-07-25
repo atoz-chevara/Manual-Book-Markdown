@@ -52,4 +52,4 @@ Apa yang harus saya lakukan?
 
 A: Silahkan menginstall paket `texlive-lang-other`:
 
-   $ sudo apt-get install -y texlive-lang-other
+    $ sudo apt-get install -y texlive-lang-other
